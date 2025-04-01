@@ -1,0 +1,77 @@
+{
+  "languagesInformatics": [
+    { "name": "Python", "level": 2 },
+    { "name": "Java", "level": 2 },
+    { "name": "TypeScript", "level": 2 },
+    { "name": "Javascript", "level": 2 },
+    { "name": "React", "level": 2 },
+    { "name": "Tailwind", "level": 2 },
+    { "name": "GitHub", "level": 2 },
+    { "name": "SQL", "level": 2 },
+    { "name": "HTML", "level": 2 },
+    { "name": "CSS", "level": 2 },
+    { "name": "C", "level": 1 },
+    { "name": "Django", "level": 1 },
+    { "name": "PHP", "level": 1 },
+    { "name": "NextJs", "level": 1 },
+    { "name": "Markdown", "level": 1 },
+    { "name": "Bash", "level": 0 },
+    { "name": "NestJs", "level": 0 }
+  ],
+  "tools": [
+    { "name": "VSCode", "level": 2 },
+    { "name": "Figma", "level": 2 },
+    { "name": "Jira", "level": 2 },
+    { "name": "MySQL", "level": 2 },
+    { "name": "Windows", "level": 2 },
+    { "name": "Confluence", "level": 1 },
+    { "name": "PostgreSQL", "level": 1 },
+    { "name": "Linux", "level": 1 },
+    { "name": "Godot", "level": 0 },
+    { "name": "Postman", "level": 0 }
+  ],
+  "qualities": [
+    {
+      "label": "organized",
+      "icon": "Checklist"
+    },
+    {
+      "label": "patience",
+      "icon": "SelfImprovement"
+    },
+    {
+      "label": "autonomy",
+      "icon": "Person"
+    },
+    {
+      "label": "perfectionist",
+      "icon": "AutoFixHigh"
+    },
+    {
+      "label": "perseverant",
+      "icon": "TrendingUp"
+    },
+    {
+      "label": "proactive",
+      "icon": "RecordVoiceOver"
+    },
+    {
+      "label": "inventive",
+      "icon": "EmojiObjects"
+    },
+    {
+      "label": "teamwork",
+      "icon": "Diversity3"
+    }
+  ],
+  "languages": [
+    {
+      "language": "french",
+      "level": "m"
+    },
+    {
+      "language": "english",
+      "level": "b2"
+    }
+  ]
+}

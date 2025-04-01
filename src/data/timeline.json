@@ -1,0 +1,37 @@
+[
+  {
+    "id": "master",
+    "year": "2025",
+    "type": "university",
+    "prevision": true
+  },
+  {
+    "id": "toeic",
+    "year": "2025",
+    "type": "certification",
+    "prevision": true
+  },
+  {
+    "id": "alternance-1",
+    "year": "2025 - 2023",
+    "type": "work",
+    "prevision": false,
+    "information": true,
+    "details": true
+  },
+  {
+    "id": "but",
+    "year": "2025 - 2022",
+    "type": "university",
+    "prevision": false,
+    "information": true
+  },
+  {
+    "id": "bac",
+    "year": "2022 - 2019",
+    "type": "university",
+    "prevision": false,
+    "information": true,
+    "details": true
+  }
+]

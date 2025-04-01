@@ -1,0 +1,266 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "switchTheme": "Switch theme"
+  },
+  "footer": {
+    "home": "Home",
+    "legal": "Legal notice",
+    "rights": "All rights reserved"
+  },
+  "contact": {
+    "title": "Contact me",
+    "close": "Close",
+    "description": "This form allows you to leave me a message. Please be clear and concise.",
+    "emailPlaceholder": "Your email address",
+    "subjectPlaceholder": "Subject (max 150 characters)",
+    "messagePlaceholder": "Your message",
+    "submit": "Send",
+    "success": "Message sent successfully!",
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "subjectTooLong": "Subject must be less than 150 characters",
+      "emptyMessage": "Message cannot be empty",
+      "sendError": "An error occurred. Please try again later"
+    }
+  },
+  "cv": {
+    "title": "My CV",
+    "download": "Download my CV"
+  },
+  "home": {
+    "typingText": "Full Stack Developer",
+    "description": "Passionate since childhood about <strong>video games</strong>, I quickly developed an interest in <strong>coding</strong> and <strong>computer science</strong>. Today, I am a <strong>full stack developer on a work-study program</strong> at IDM Group since <strong>September 2023</strong>, while completing my <strong>third year of a Bachelor's in IT</strong> at Gustave Eiffel University. I currently live in <strong>Val-de-Marne</strong>.<br/><br/><span>As a famous professor once said <quote>“Every puzzle has an answer!”</quote> and I'm here to find them.</span>",
+    "passions": {
+      "games": "Video Games",
+      "music": "Music",
+      "code": "Coding",
+      "computerScience": "Computer Science",
+      "biopsychology": "Biopsychology",
+      "thinking": "Thinking"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "career": "My career",
+    "languagesInformatics": "Languages & Frameworks",
+    "tools": "Tools",
+    "qualities": "Qualities",
+    "languages": "Languages",
+    "timeline": {
+      "expected": "Expected ",
+      "master": {
+        "title": "AMINJ Master's | IMAC",
+        "location": "University | ESIEE Paris"
+      },
+      "toeic": {
+        "title": "TOEIC Certification",
+        "location": "Gustave Eiffel University"
+      },
+      "alternance-1": {
+        "title": "Full Stack Developer",
+        "location": "IDM Group",
+        "information": "Apprenticeship of 2 years",
+        "details": [
+          "Full Stack Development",
+          "Technological Migration",
+          "Maintenance & Optimization",
+          "Methodology & Collaboration"
+        ]
+      },
+      "but": {
+        "title": "Bachelor of CS (BUT)",
+        "location": "Gustave Eiffel University",
+        "information": "Application development track"
+      },
+      "bac": {
+        "title": "General Baccalaureate",
+        "location": "Teilhard de Chardin High School",
+        "information": "Graduated with High Honors",
+        "details": ["Specialties in Mathematics and Computer Science"]
+      }
+    },
+    "softSkills": {
+      "organized": "Organized",
+      "patience": "Patience",
+      "autonomy": "Autonomy",
+      "perfectionist": "Perfectionist",
+      "perseverant": "Perseverant",
+      "proactive": "Proactive",
+      "inventive": "Inventive",
+      "teamwork": "Teamwork"
+    },
+    "legend": {
+      "advanced": "Advance",
+      "intermediate": "Intermediate",
+      "beginner": "Beginner"
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "search": {
+      "placeholder": "Search for a project...",
+      "noResults": "No projects found.",
+      "filter": {
+        "title": "Filters",
+        "tags": "Tags",
+        "languages": "Languages",
+        "years": "Years",
+        "reset": "Reset"
+      }
+    },
+    "tags": {
+      "video-game": "Video Game",
+      "2D": "2D",
+      "multiplayer": "Multiplayer",
+      "battle": "Battle",
+      "roguelike": "Roguelike",
+      "solo": "Single Player",
+      "calculator": "Calculator",
+      "finance": "Finance",
+      "script": "Script",
+      "graphes": "Graphs",
+      "algorithmes": "Algorithms",
+      "website": "Website",
+      "figma": "Figma",
+      "bank": "Bank",
+      "jira": "Jira",
+      "server": "Server",
+      "app": "App",
+      "student": "Student",
+      "university": "University",
+      "retro": "Retro",
+      "eclipse": "Eclipse",
+      "ti83": "TI-83",
+      "automates": "Automata"
+    },
+    "languages": {
+      "python": "Python",
+      "java": "Java",
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JavaScript",
+      "php": "PHP",
+      "mysql": "MySQL",
+      "react": "React",
+      "ts": "TypeScript",
+      "c": "C",
+      "gdscript": "GDScript",
+      "c#": "C#",
+      "react-native": "React Native",
+      "django": "Django"
+    },
+    "years": {
+      "2023": "2023 - (BUT1)",
+      "2024": "2024 - (BUT2)",
+      "2025": "2025 - (BUT3)"
+    },
+    "splaaatball": {
+      "title": "Splaaatball",
+      "description": "🎮🔵 A 'territory war' game implemented in Python for 2 players. Place your colored tokens to cover as much of the screen as possible and win the match!"
+    },
+    "backpackhero": {
+      "title": "Backpack Hero",
+      "description": "🎒🐭 Roguelike game! Venture into the dungeon with your backpack and defeat monsters using your collected treasures!"
+    },
+    "scriptAccounting": {
+      "title": "Accounting Script",
+      "description": "📈🧮 Python scripts to calculate straight-line and declining-balance depreciation, and to generate a balance sheet. Code is roughly formatted for calculator display. A personal initiative project made with Helena Chevalier."
+    },
+    "graphsExploration": {
+      "title": "Graph Exploration",
+      "description": "💻🔍 Algorithmic exploration of graph theory: implementation of various graph algorithms in Python."
+    },
+    "pimpMyPaids": {
+      "title": "PimpMyPaids",
+      "description": "💳🏦 PimpMyPaids is a specialized web portal allowing clients—whether businesses or merchants—to check their accounts and track daily financial transactions."
+    },
+    "linksAwordkening": {
+      "title": "Links Awordkening",
+      "description": "🌿💬 'Links Awordkening: Where Words Unite!' is an online game where you challenge your mind with word chains and explore a world of similar words to take on the ultimate language challenge!"
+    },
+    "asteroids": {
+      "title": "Asteroids",
+      "description": "🚀🌌 Asteroids is a 2D space shooter where you must destroy asteroids and enemy ships while avoiding collisions. A personal initiative project to discover game programming."
+    },
+    "chillzone": {
+      "title": "ChillZone - My IUT",
+      "description": "🎓📱 ChillZone makes student life easier: book rooms, acoustic box, or meals in one click, check your schedule, and find your way around campus. Teachers and admins manage everything via an intuitive back office!"
+    }
+  },
+  "languages": {
+    "french": {
+      "label": "French",
+      "symbol": "FR"
+    },
+    "english": {
+      "label": "English",
+      "symbol": "EN"
+    },
+    "level": {
+      "m": "Preschool",
+      "c2": "C2 - Proficient",
+      "c1": "C1 - Advanced",
+      "b2": "B2 - Intermediate"
+    }
+  },
+  "notfound": {
+    "description": "Oops... The page you're looking for doesn't exist.",
+    "back": "Go back to homepage"
+  },
+  "maintenance": {
+    "site": {
+      "title": "Site under maintenance",
+      "description": "We're currently updating the site to provide you with a better experience. Thank you for your patience!"
+    },
+    "page": {
+      "title": "Page under maintenance",
+      "description": "This page is temporarily unavailable while we make some improvements. It will be back shortly!"
+    },
+    "back": "Back to homepage"
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "description": "Legal information and obligations related to this personal website.",
+    "author": {
+      "title": "Site Publisher",
+      "nameLabel": "Name:",
+      "name": "Kellian Bredeau",
+      "addressLabel": "Address:",
+      "address": "Val-de-Marne, France",
+      "contactLabel": "Contact:",
+      "contact": "kellian.bredeau@gmail.com"
+    },
+    "host": {
+      "title": "Website Host",
+      "nameLabel": "Name:",
+      "name": "Fabien Gilles",
+      "addressLabel": "Address:",
+      "address": "Seine-Saint-Denis, France",
+      "phoneLabel": "Phone:",
+      "phone": "Not disclosed"
+    },
+    "data": {
+      "title": "Personal Data Protection",
+      "content": "This site does not collect any personal data, except for information provided by the user through the contact form. This information is not stored in a database and is only used to respond to contact requests.<br/>No personal data is shared with third parties, and no data is used for commercial purposes."
+    },
+    "rights": {
+      "title": "Intellectual Property Rights",
+      "content": "The content of this portfolio, including texts, images, and other visual elements, is the property of Kellian Bredeau, unless otherwise stated.",
+      "devicon": "Technical icons provided by <a>Devicon</a> (MIT).",
+      "mui": "UI icons from <a>Material Icons</a> (MUI) (Apache 2.0).",
+      "helena": "Most of the project logos were designed by <a>Héléna Chevalier</a>.",
+      "design": "The design uses the Tailwind CSS framework under the MIT license.",
+      "code": "This project uses React, Vite, and NPM, all under open-source licenses."
+    },
+    "responsabilties": {
+      "title": "Disclaimer",
+      "content": "The content of this site is provided for informational purposes only and does not engage the responsibility of the publisher in case of errors or omissions. Links to external websites are provided for convenience, and the publisher cannot be held responsible for the content of those external sites."
+    }
+  },
+  "unavailable": "Unavailable",
+  "korok": "You find me !"
+}

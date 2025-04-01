@@ -1,0 +1,123 @@
+[
+  {
+    "title": "splaaatball",
+    "date": "2023",
+    "github": "https://github.com/InkyYuu/Splaaatball",
+    "languages": ["python"],
+    "tags": ["video-game", "2D", "multiplayer", "battle"],
+    "page": {
+      "languages": ["python"],
+      "skills": ["figma"],
+      "slider": ["vid1.png", "img1.png", "img2.png"]
+    }
+  },
+  {
+    "title": "backpackhero",
+    "date": "2023",
+    "github": "https://github.com/InkyYuu/Backpack-Hero",
+    "languages": ["java"],
+    "tags": ["video-game", "roguelike", "2D", "solo", "eclipse"],
+    "page": {
+      "languages": ["java"],
+      "skills": ["figma"],
+      "slider": ["vid1.png", "img1.png", "img2.png"]
+    }
+  },
+  {
+    "title": "scriptAccounting",
+    "date": "2023",
+    "github": "https://github.com/InkyYuu/Comptabilite",
+    "languages": ["python"],
+    "tags": ["calculator", "finance", "script", "ti83"],
+    "page": {
+      "languages": ["python"],
+      "skills": ["figma"],
+      "slider": ["img1.png", "img2.png"]
+    }
+  },
+  {
+    "title": "graphsExploration",
+    "date": "2023",
+    "github": "https://github.com/InkyYuu/Graphes",
+    "languages": ["python"],
+    "tags": ["algorithmes", "automates", "graphes"],
+    "page": {
+      "languages": ["python"],
+      "skills": ["figma"],
+      "slider": ["vid1.png", "img1.png"]
+    }
+  },
+  {
+    "title": "pimpMyPaids",
+    "date": "2024",
+    "github": "https://github.com/FC-Rats/PimpMyPaids",
+    "languages": ["html", "css", "js", "php", "mysql"],
+    "tags": ["website", "figma", "bank", "jira"],
+    "page": {
+      "languages": ["php", "html", "css", "javascript", "sql"],
+      "tools": ["figma", "jira", "github", "mysql"],
+      "skills": ["figma"],
+      "slider": [
+        "img1.png",
+        "img2.png",
+        "img3.png",
+        "img4.png",
+        "img5.png",
+        "img6.png"
+      ]
+    }
+  },
+  {
+    "title": "linksAwordkening",
+    "date": "2024",
+    "github": "https://github.com/FC-Rats/Links-Awordkening",
+    "demo": "https://linksawordkening.fabiengilles.tf",
+    "languages": ["ts", "react", "php", "python", "c", "java", "mysql"],
+    "tags": ["video-game", "website", "server", "multiplayer"],
+    "page": {
+      "languages": ["python", "java", "c", "react", "typescript", "php", "sql"],
+      "tools": ["figma", "jira", "github", "mysql"],
+      "skills": ["figma"],
+      "slider": [
+        "img1.png",
+        "img2.png",
+        "img3.png",
+        "img4.png",
+        "img5.png",
+        "img6.png"
+      ]
+    }
+  },
+  {
+    "title": "asteroids",
+    "date": "2024",
+    "github": "https://github.com/InkyYuu/Asteroids",
+    "languages": ["gdscript", "godot"],
+    "tags": ["video-game", "2D", "solo", "retro"],
+    "page": {
+      "languages": ["godot"],
+      "skills": ["figma"],
+      "slider": ["vid1.png", "img1.png", "img2.png"]
+    }
+  },
+  {
+    "title": "chillzone",
+    "date": "2025",
+    "github": "https://github.com/FC-Zen/ChillZone",
+    "languages": ["react", "ts", "react-native", "django", "mysql", "python"],
+    "tags": ["jira", "university", "figma", "app"],
+    "page": {
+      "languages": ["python", "java", "c", "react", "typescript", "php", "sql"],
+      "tools": ["figma", "jira", "github", "mysql"],
+      "skills": ["figma"],
+      "slider": [
+        "img1.png",
+        "img2.png",
+        "img3.png",
+        "img4.png",
+        "img5.png",
+        "img6.png"
+      ]
+    }
+  }
+]

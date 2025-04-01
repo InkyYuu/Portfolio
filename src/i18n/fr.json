@@ -1,0 +1,267 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "switchTheme": "Changer de thème"
+  },
+  "footer": {
+    "home": "Accueil",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "close": "Fermer",
+    "description": "Ce formulaire vous permet de me laisser un message. Merci d'être clair et précis.",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "subjectPlaceholder": "Objet (max 150 caractères)",
+    "messagePlaceholder": "Votre message",
+    "submit": "Envoyer",
+    "success": "Message envoyé avec succès !",
+    "errors": {
+      "invalidEmail": "Adresse e-mail invalide.",
+      "subjectTooLong": "L'objet doit faire moins de 150 caractères.",
+      "emptyMessage": "Le message ne peut pas être vide.",
+      "sendError": "Une erreur est survenue. Veuillez réessayer plus tard."
+    }
+  },
+  "cv": {
+    "title": "Mon CV",
+    "download": "Télécharge mon CV"
+  },
+  "home": {
+    "typingText": "Développeur Full Stack",
+    "description": "Passionné depuis l'enfance par les <strong>jeux vidéo</strong>, j'ai développé très tôt un attrait pour le <strong>code</strong> et <strong>l'informatique</strong>. Aujourd'hui, je suis <strong>développeur full stack en alternance</strong> chez IDM Group depuis <strong>septembre 2023</strong>, tout en poursuivant ma <strong>3<sup>ème</sup> année de BUT Informatique</strong> à l'université Gustave Eiffel. Je vis actuellement dans le <strong>Val-de-Marne</strong>.<br/><br/><span>Comme a dit un célèbre professeur <quote>« Toute énigme a une solution ! »</quote> et je suis là pour les trouver.</span>",
+    "passions": {
+      "games": "Jeux Vidéo",
+      "music": "Musique",
+      "code": "Code",
+      "computerScience": "Informatique",
+      "biopsychology": "Biopsychologie",
+      "thinking": "Réflexion"
+    }
+  },
+  "about": {
+    "title": "À propos de moi",
+    "career": "Mon parcours",
+    "languagesInformatics": "Langages et Frameworks",
+    "tools": "Outils",
+    "qualities": "Qualités",
+    "languages": "Langages",
+    "timeline": {
+      "expected": "Prévision ",
+      "master": {
+        "title": "Master AMINJ | IMAC",
+        "location": "Université | ESIEE Paris"
+      },
+      "toeic": {
+        "title": "Certification TOEIC",
+        "location": "Université Gustave Eiffel"
+      },
+      "alternance-1": {
+        "title": "Développeur Full Stack",
+        "location": "IDM Group",
+        "information": "Alternance de 2 ans",
+        "details": [
+          "Développement Full Stack",
+          "Migration Technologique",
+          "Maintenance & Optimisation",
+          "Méthodologie & Collaboration"
+        ]
+      },
+      "but": {
+        "title": "BUT Informatique",
+        "location": "Université Gustave Eiffel",
+        "information": "Parcours réalisation d'applications"
+      },
+      "bac": {
+        "title": "Baccalauréat Général",
+        "location": "Lycée Teilhard de Chardin",
+        "information": "Mention Très Bien",
+        "details": [
+          "Spécialités Mathématiques et Numérique et Sciences Informatique"
+        ]
+      }
+    },
+    "softSkills": {
+      "organized": "Organisé",
+      "patience": "Patience",
+      "autonomy": "Autonomie",
+      "perfectionist": "Perfectionniste",
+      "perseverant": "Persévérant",
+      "proactive": "Force de proposition",
+      "inventive": "Inventif",
+      "teamwork": "Travail en équipe"
+    },
+    "legend": {
+      "advanced": "Avancé",
+      "intermediate": "Intermédiaire",
+      "beginner": "Débutant"
+    }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "search": {
+      "placeholder": "Rechercher un projet...",
+      "noResults": "Aucun projet trouvé.",
+      "filter": {
+        "title": "Filtres",
+        "tags": "Tags",
+        "languages": "Langages",
+        "years": "Années",
+        "reset": "Réinitialiser"
+      }
+    },
+    "tags": {
+      "video-game": "Jeu Vidéo",
+      "2D": "2D",
+      "multiplayer": "Multijoueur",
+      "battle": "Bataille",
+      "roguelike": "Roguelike",
+      "solo": "Solo",
+      "calculator": "Calculatrice",
+      "finance": "Finance",
+      "script": "Script",
+      "graphes": "Graphes",
+      "algorithmes": "Algorithmes",
+      "website": "Site Web",
+      "figma": "Figma",
+      "bank": "Banque",
+      "jira": "Jira",
+      "server": "Serveur",
+      "app": "Application",
+      "university": "Université",
+      "retro": "Rétro",
+      "eclipse": "Eclipse",
+      "ti83": "TI-83",
+      "automates": "Automates"
+    },
+    "languages": {
+      "python": "Python",
+      "java": "Java",
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JavaScript",
+      "php": "PHP",
+      "mysql": "MySQL",
+      "react": "React",
+      "ts": "TypeScript",
+      "c": "C",
+      "gdscript": "GDScript",
+      "c#": "C#",
+      "react-native": "React Native",
+      "django": "Django"
+    },
+    "years": {
+      "2023": "2023 - (BUT1)",
+      "2024": "2024 - (BUT2)",
+      "2025": "2025 - (BUT3)"
+    },
+    "splaaatball": {
+      "title": "Splaaatball",
+      "description": "🎮🔵 Jeu \"Guerre de territoire\" implémenté en python pour 2 joueurs. Placez vos pions de couleur pour recouvrir un maximum l'écran et gagner la partie !"
+    },
+    "backpackhero": {
+      "title": "Backpack Hero",
+      "description": "🎒🐭 Jeu roguelike ! Partez à l'aventure avec votre sac à dos pour parcourir le donjon en abattant les monstres avec vos différents trésors !"
+    },
+    "scriptAccounting": {
+      "title": "Script Comptabilité",
+      "description": "📈🧮 Programmes python pour calculer le taux linéaire, le taux dégressif et faire la balance. Le code est à peu près formaté pour un affichage propre sur calculatrice. Projet à initiative personnelle avec Helena Chevalier."
+    },
+    "graphsExploration": {
+      "title": "Exploration de graphes",
+      "description": "💻🔍 Exploration algorithmique d'un programme avec les graphes : Implémentation des différents algorithmes de graphes en python."
+    },
+    "pimpMyPaids": {
+      "title": "PimpMyPaids",
+      "description": "💳🏦 PimpMyPaids est un portail Web spécialisé pour permettre aux clients, qu'ils soient des entreprises ou des commerçants, de consulter leurs comptes et de suivre leurs transactions financières quotidiennes."
+    },
+    "linksAwordkening": {
+      "title": "Links Awordkening",
+      "description": "🌿💬 \"Links Awordkening : Where Words Unite !\" est un jeu en ligne dans lequel vous devez défier votre esprit avec des chaînes de mots et explorez un monde de mots similaires pour relever le défi ultime du langage !"
+    },
+    "asteroids": {
+      "title": "Asteroids",
+      "description": "🚀🌌 Asteroids est un jeu de tir spatial en 2D où vous devez détruire des astéroïdes et des vaisseaux ennemis tout en évitant les collisions. Projet à initiative personnelle pour découvrir le game programming."
+    },
+    "chillzone": {
+      "title": "ChillZone - Mont IUT",
+      "description": "🎓📱 ChillZone simplifie la vie des étudiants : réservez salles, box ou repas en un clic, consultez votre emploi du temps et orientez-vous sur le campus. Profs et admins gèrent tout via un backoffice intuitif !"
+    }
+  },
+  "languages": {
+    "french": {
+      "label": "Français",
+      "symbol": "FR"
+    },
+    "english": {
+      "label": "Anglais",
+      "symbol": "EN"
+    },
+    "level": {
+      "m": "Maternelle",
+      "c2": "C2 - Bilingue",
+      "c1": "C1 - Avancé",
+      "b2": "B2 - Intermédiaire"
+    }
+  },
+  "notfound": {
+    "description": "Oups... La page que vous cherchez n’existe pas.",
+    "back": "Revenir à l’accueil"
+  },
+  "maintenance": {
+    "site": {
+      "title": "Site en maintenance",
+      "description": "Nous mettons actuellement le site à jour pour vous offrir une meilleure expérience. Merci de votre patience !"
+    },
+    "page": {
+      "title": "Page en maintenance",
+      "description": "Cette page est temporairement indisponible pendant que nous effectuons des ajustements. Elle sera de retour très bientôt !"
+    },
+    "back": "Revenir à l'accueil"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "description": "Informations légales et obligations relatives à ce site personnel.",
+    "author": {
+      "title": "Éditeur du site",
+      "nameLabel": "Nom :",
+      "name": "Kellian Bredeau",
+      "addressLabel": "Adresse :",
+      "address": "Val-de-Marne, France",
+      "contactLabel": "Contact :",
+      "contact": "kellian.bredeau@gmail.com"
+    },
+    "host": {
+      "title": "Hébergeur du site",
+      "nameLabel": "Nom :",
+      "name": "Fabien Gilles",
+      "addressLabel": "Adresse :",
+      "address": "Seine-Saint-Denis, France",
+      "phoneLabel": "Téléphone :",
+      "phone": "Non communiqué"
+    },
+    "data": {
+      "title": "Protection des données personnelles",
+      "content": "Ce site ne collecte aucune donnée personnelle, à l'exception des informations fournies par l'utilisateur via le formulaire de contact. Ces informations ne sont pas sauvegardées dans une base de données et ne sont utilisées que dans le cadre de la réponse aux demandes de contact.<br/>Aucune donnée personnelle n'est partagée avec des tiers, et aucune donnée n'est utilisée à des fins commerciales."
+    },
+    "rights": {
+      "title": "Droits de propriété intellectuelle",
+      "content": "Le contenu de ce portfolio, incluant les textes, images, et autres éléments visuels, sont la propriété de Kellian Bredeau, sauf mention contraire.",
+      "devicon": "Icônes techniques fournies par <a>Devicon</a> (MIT).",
+      "mui": "Icônes d'interface issues de <a>Material Icons</a> (MUI) (Apache 2.0).",
+      "helena": "La majorité des logos de projets ont été réalisés par <a>Héléna Chevalier</a>.",
+      "design": "Le design utilise le framework Tailwind CSS sous licence MIT.",
+      "code": "Ce projet utilise React, Vite, et NPM, tous sous licences open-source."
+    },
+    "responsabilties": {
+      "title": "Responsabilités",
+      "content": "Le contenu de ce site est fourni à titre informatif et ne saurait engager la responsabilité de son éditeur en cas d'erreur ou d'omission. Les liens vers d'autres sites externes sont fournis à titre de convenance, et l'éditeur ne peut être tenu responsable du contenu des sites externes."
+    }
+  },
+  "unavailable": "Indisponible",
+  "korok": "Vous m'avez trouvé !"
+}
