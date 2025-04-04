@@ -115,6 +115,7 @@
       }
     },
     "tags": {
+      "godot": "Godot",
       "video-game": "Jeu Vidéo",
       "2D": "2D",
       "multiplayer": "Multijoueur",

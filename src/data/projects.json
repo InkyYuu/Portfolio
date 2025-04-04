@@ -92,8 +92,8 @@
     "title": "asteroids",
     "date": "2024",
     "github": "https://github.com/InkyYuu/Asteroids",
-    "languages": ["gdscript", "godot"],
-    "tags": ["video-game", "2D", "solo", "retro"],
+    "languages": ["gdscript"],
+    "tags": ["godot", "video-game", "2D", "solo", "retro"],
     "page": {
       "languages": ["godot"],
       "skills": ["figma"],
