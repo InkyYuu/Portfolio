@@ -11,6 +11,10 @@ import CodeIcon from "@mui/icons-material/Code";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import SearchIcon from "@mui/icons-material/Search";
 import CloseIcon from "@mui/icons-material/Close";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import Informations from "./Informations";
+import ModalInformation from "../modal/ModalInformation";
 
 const ProjectListPage = () => {
   const { t } = useTranslation();
@@ -21,6 +25,7 @@ const ProjectListPage = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState<string | null>("tags");
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [modalOpen, setModalOpen] = useState(false);
 
   const scroll = (direction: string) => {
     if (!scrollRef.current) return;
@@ -71,8 +76,7 @@ const ProjectListPage = () => {
         selectedLanguages.length === 0 ||
         project.languages.some((lang) => selectedLanguages.includes(lang));
       const matchYears =
-        selectedYears.length === 0 ||
-        selectedYears.includes(project.date.slice(0, 4));
+        selectedYears.length === 0 || selectedYears.includes(project.date);
       return matchSearch && matchTags && matchLangs && matchYears;
     });
   }, [search, selectedTags, selectedLanguages, selectedYears]);
@@ -115,9 +119,7 @@ const ProjectListPage = () => {
                 : "border-gray-500 text-gray-300 hover:bg-gray-700"
             }`}
           >
-            {activeCategory !== "years"
-              ? t(`projects.${activeCategory}.${item}`)
-              : item}
+            {t(`projects.${activeCategory}.${item}`)}
           </button>
         ))}
       </div>
@@ -127,13 +129,32 @@ const ProjectListPage = () => {
   return (
     <div>
       <span id="projects"></span>
+      <div className="block lg:hidden">
+        <ModalInformation
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+        />
+      </div>
       <section className="relative min-h-screen w-full px-4 md:px-12 py-30 bg-[var(--color-background)] text-white flex flex-col justify-center gap-10">
         <h1 className="text-2xl xl:text-4xl font-bold mb-10 text-center">
           {t("projects.title")}
         </h1>
 
+        <div className="hidden w-full lg:block">
+          <div className="rounded-xl border border-gray-600 bg-[var(--color-surface)] backdrop-blur p-5 md:p-6 space-y-4">
+            <Informations />
+          </div>
+        </div>
+
         <div className="flex flex-col gap-10">
           <div className="flex flex-wrap md:flex-nowrap items-center gap-4 mb-8 w-full">
+            <button
+              type="button"
+              className="lg:hidden text-white flex items-center bg-gray-700 hover:bg-gray-600 border border-gray-500 p-2.5 rounded-md"
+              onClick={() => setModalOpen(true)}
+            >
+              <InfoOutlinedIcon fontSize="small" />
+            </button>
             <div className="relative flex-1 min-w-0 transition-all duration-300">
               <span className="absolute left-3 top-1/2 -translate-y-1/2 flex items-center text-gray-400">
                 <SearchIcon fontSize="small" />
@@ -235,7 +256,7 @@ const ProjectListPage = () => {
 
             <div
               ref={scrollRef}
-              className="w-full overflow-x-auto scroll-smooth scrollbar-hide md:pr-6 py-1"
+              className="w-full overflow-x-auto scroll-smooth scrollbar-hide md:pr-6 py-1 px-1"
             >
               <div className="flex gap-6 w-max pb-4">
                 {filteredProjects.map((project, idx) => (

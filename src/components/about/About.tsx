@@ -56,13 +56,13 @@ const About = () => {
   return (
     <div>
       <span id="about"></span>
-      <section className="relative min-h-screen w-full px-4 md:px-12 py-25 xl:py-30 bg-[var(--color-background)] text-white flex flex-col justify-center gap-5 xl:gap-12">
+      <section className="relative min-h-screen w-full px-4 md:px-12 py-20 xl:py-25 bg-[var(--color-background)] text-white flex flex-col justify-center gap-5 xl:gap-15">
         <h1 className="text-2xl xl:text-4xl font-bold mb-2 text-center">
           {t("about.title")}
         </h1>
         <div className="flex flex-col xl:grid xl:grid-cols-[40%_55%] xl:gap-20">
           <Timeline items={data} />
-          <div className="flex flex-col mt-3 gap-1 xl:justify-between xl:pb-3 xl:mt-0">
+          <div className="flex flex-col mt-3 gap-1 lg:gap-3 xl:gap-5 xl:pb-3 xl:mt-0">
             <SkillGrid
               type={"languagesInformatics"}
               skills={languagesInformatics}

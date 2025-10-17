@@ -1,19 +1,35 @@
 [
   {
-    "id": "master",
-    "year": "2025",
+    "id": "orthographiq",
+    "year": "2026",
+    "type": "certification",
+    "prevision": true,
+    "information": true
+  },
+  {
+    "id": "engineer",
+    "year": "2025 - 2028",
     "type": "university",
-    "prevision": true
+    "information": true,
+    "prevision": false
   },
   {
     "id": "toeic",
     "year": "2025",
     "type": "certification",
-    "prevision": true
+    "prevision": false,
+    "information": true
+  },
+  {
+    "id": "pix",
+    "year": "2025",
+    "type": "certification",
+    "prevision": false,
+    "information": true
   },
   {
     "id": "alternance-1",
-    "year": "2025 - 2023",
+    "year": "2023 - 2025",
     "type": "work",
     "prevision": false,
     "information": true,
@@ -21,14 +37,14 @@
   },
   {
     "id": "but",
-    "year": "2025 - 2022",
+    "year": "2022 - 2025",
     "type": "university",
     "prevision": false,
     "information": true
   },
   {
     "id": "bac",
-    "year": "2022 - 2019",
+    "year": "2019 - 2022",
     "type": "university",
     "prevision": false,
     "information": true,

@@ -29,6 +29,15 @@ const ModalContact = ({ isOpen, onClose }: ModalContactProps) => {
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.documentElement.style.scrollbarGutter = "stable";
+      document.documentElement.classList.add("no-scroll");
+    } else {
+      document.documentElement.classList.remove("no-scroll");
+    }
+  }, [isOpen]);
+
   const validate = () => {
     if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
       setToast({ message: t("contact.errors.invalidEmail"), type: "error" });
@@ -81,7 +90,7 @@ const ModalContact = ({ isOpen, onClose }: ModalContactProps) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur"
           >
             <Korok show={showKorok} />
             <motion.div
@@ -91,7 +100,7 @@ const ModalContact = ({ isOpen, onClose }: ModalContactProps) => {
               onAnimationComplete={() => {
                 setShowKorok(true);
               }}
-              className="bg-[var(--color-surface)] text-[var(--color-text)] rounded-2xl p-8 w-full max-w-lg shadow-2xl relative z-50"
+              className="bg-[var(--color-surface)] text-[var(--color-text)] rounded-2xl p-8 w-full max-w-lg relative z-50"
             >
               <button
                 onClick={onClose}
@@ -136,7 +145,7 @@ const ModalContact = ({ isOpen, onClose }: ModalContactProps) => {
                 />
                 <button
                   type="submit"
-                  className="bg-[var(--color-accent)] text-white px-4 py-2 rounded hover:bg-[var(--color-accent-dark)] transition"
+                  className="bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)] text-white px-4 py-2 rounded hover:scale-103 transition"
                 >
                   {t("contact.submit")}
                 </button>

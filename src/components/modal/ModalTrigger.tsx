@@ -23,7 +23,7 @@ const ModalTrigger: FC<ModalTriggerProps> = ({ Modal, buttonText, type }) => {
         {type == "text" && (
           <button
             onClick={() => setShowModal(true)}
-            className="text-sm md:text-base bg-[var(--color-accent)] text-white px-4 py-2 rounded-full hover:bg-[var(--color-accent-dark)] transition-all font-medium"
+            className="text-sm md:text-base bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-dark)] text-white px-4 py-2 rounded-full hover:bg-[var(--color-accent-dark)] transition-all font-medium"
           >
             {buttonText}
           </button>

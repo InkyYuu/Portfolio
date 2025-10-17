@@ -38,16 +38,28 @@ const SkillGrid = ({ type, skills }: SkillGridProps) => {
       <div className="relative w-full flex items-center gap-2">
         <button
           onClick={() => scroll("left")}
-          className="hidden md:flex bg-gray-800 hover:bg-[var(--color-accent)] p-2 rounded-full shadow-lg transition-all duration-200"
+          className={`hidden md:flex bg-gray-800 hover:bg-[var(--color-accent)] p-2 rounded-full shadow-lg transition-all duration-200 ${
+            type === "languagesInformatics" ? "lg:hidden" : ""
+          }`}
         >
           <ArrowBackIosNewIcon fontSize="small" className="text-white" />
         </button>
 
         <div
           ref={scrollRef}
-          className="w-full overflow-x-auto scroll-smooth scrollbar-hide md:pr-6 p-1"
+          className={`w-full overflow-x-auto scroll-smooth scrollbar-hide md:pr-6 p-1 ${
+            type === "languagesInformatics"
+              ? "lg:pr-1 lg:overflow-x-visible"
+              : ""
+          }`}
         >
-          <div className="flex gap-6 w-max pb-4">
+          <div
+            className={`flex gap-6 w-max pb-4 ${
+              type === "languagesInformatics"
+                ? "lg:flex lg:flex-wrap lg:w-auto"
+                : ""
+            }`}
+          >
             {skills.map((skill, idx) => (
               <div key={idx}>
                 <SkillCard {...skill} />
@@ -58,7 +70,9 @@ const SkillGrid = ({ type, skills }: SkillGridProps) => {
 
         <button
           onClick={() => scroll("right")}
-          className="hidden md:flex bg-gray-800 hover:bg-[var(--color-accent)] p-2 rounded-full shadow-lg transition-all duration-200"
+          className={`hidden md:flex bg-gray-800 hover:bg-[var(--color-accent)] p-2 rounded-full shadow-lg transition-all duration-200 ${
+            type === "languagesInformatics" ? "lg:hidden" : ""
+          }`}
         >
           <ArrowForwardIosIcon fontSize="small" className="text-white" />
         </button>

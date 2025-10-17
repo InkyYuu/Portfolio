@@ -33,7 +33,7 @@
   },
   "home": {
     "typingText": "Full Stack Developer",
-    "description": "Passionate since childhood about <strong>video games</strong>, I quickly developed an interest in <strong>coding</strong> and <strong>computer science</strong>. Today, I am a <strong>full stack developer on a work-study program</strong> at IDM Group since <strong>September 2023</strong>, while completing my <strong>third year of a Bachelor's in IT</strong> at Gustave Eiffel University. I currently live in <strong>Val-de-Marne</strong>.<br/><br/><span>As a famous professor once said <quote>“Every puzzle has an answer!”</quote> and I'm here to find them.</span>",
+    "description": "Passionate since childhood about <strong>video games</strong>, I quickly developed an interest in <strong>coding</strong> and <strong>computer science</strong>. TAfter two years of <strong>work-study</strong> at IDM Group, I am currently in my <strong>first year of IMAC Engineering</strong> at <strong>ESIEE Paris</strong>. I presently live in <strong>Val-de-Marne</strong>.<br/><br/><span>As a famous professor once said <quote>“Every puzzle has an answer!”</quote> and I'm here to find them.</span>",
     "passions": {
       "games": "Video Games",
       "music": "Music",
@@ -52,13 +52,25 @@
     "languages": "Languages",
     "timeline": {
       "expected": "Expected ",
-      "master": {
-        "title": "AMINJ Master's | IMAC",
-        "location": "University | ESIEE Paris"
+      "engineer": {
+        "title": "IMAC",
+        "location": "ESIEE Paris",
+        "information": "Engineering degree in audiovisual and computer science"
+      },
+      "orthographiq": {
+        "title": "OrthographIQ Certification",
+        "location": "IMAC | ESIEE Paris",
+        "information": "Certification in spelling"
       },
       "toeic": {
         "title": "TOEIC Certification",
-        "location": "Gustave Eiffel University"
+        "location": "Gustave Eiffel University",
+        "information": "Score: 845/990"
+      },
+      "pix": {
+        "title": "PIX Certification",
+        "location": "Gustave Eiffel University",
+        "information": "Score: 701/895 (Advanced 2)"
       },
       "alternance-1": {
         "title": "Full Stack Developer",
@@ -101,6 +113,14 @@
   },
   "projects": {
     "title": "My Projects",
+    "information": {
+      "title": "Help",
+      "description": "Here you’ll find my projects created over the <semibold>different years</semibold>, whether they are <semibold>personal</semibold> or <semibold>academic</semibold>. Use the search bar or apply filters to browse through <semibold>everything.</semibold>",
+      "search": "<medium>Search</medium> for a project name using the bar at the top: just type a few letters, and the results update automatically.",
+      "filter": "<medium>Filter</medium> by <chipsIconTags>tags</chipsIconTags>, <chipsIconLanguages>languages</chipsIconLanguages>, and <chipsIconYear>years</chipsIconYear>. Filters are <semibold>combinable</semibold> (<chips>AND</chips> logic between categories and <chips>OR</chips> logic between filters within the same category).",
+      "github": "Each card contains a link to the <medium>GitHub repository</medium> (icon at the <underline>top left</underline>) to view the source code.",
+      "arrow": "Click the <medium>arrow</medium> at the <underline>top right</underline> of a card to <semibold>learn more</semibold> about the project. Currently unavailable!"
+    },
     "search": {
       "placeholder": "Search for a project...",
       "noResults": "No projects found.",
@@ -157,6 +177,7 @@
     "years": {
       "2023": "2023 - (BUT1)",
       "2024": "2024 - (BUT2)",
+      "2024-solo": "2024 - (Personal)",
       "2025": "2025 - (BUT3)"
     },
     "splaaatball": {

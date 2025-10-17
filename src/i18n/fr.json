@@ -33,7 +33,7 @@
   },
   "home": {
     "typingText": "Développeur Full Stack",
-    "description": "Passionné depuis l'enfance par les <strong>jeux vidéo</strong>, j'ai développé très tôt un attrait pour le <strong>code</strong> et <strong>l'informatique</strong>. Aujourd'hui, je suis <strong>développeur full stack en alternance</strong> chez IDM Group depuis <strong>septembre 2023</strong>, tout en poursuivant ma <strong>3<sup>ème</sup> année de BUT Informatique</strong> à l'université Gustave Eiffel. Je vis actuellement dans le <strong>Val-de-Marne</strong>.<br/><br/><span>Comme a dit un célèbre professeur <quote>« Toute énigme a une solution ! »</quote> et je suis là pour les trouver.</span>",
+    "description": "Passionné depuis l'enfance par les <strong>jeux vidéo</strong>, j'ai développé très tôt un attrait pour le <strong>code</strong> et <strong>l'informatique</strong>. Après deux ans <strong>d'alternance</strong> chez IDM Group, je suis actuellement en <strong>1<sup>ère</sup> année d'Ingénieur IMAC</strong> à l'école <strong>ESIEE Paris</strong>. Je vis présentement dans le <strong>Val-de-Marne</strong>.<br/><br/><span>Comme a dit un célèbre professeur <quote>« Toute énigme a une solution ! »</quote> et je suis là pour les trouver.</span>",
     "passions": {
       "games": "Jeux Vidéo",
       "music": "Musique",
@@ -52,13 +52,25 @@
     "languages": "Langages",
     "timeline": {
       "expected": "Prévision ",
-      "master": {
-        "title": "Master AMINJ | IMAC",
-        "location": "Université | ESIEE Paris"
+      "engineer": {
+        "title": "IMAC",
+        "location": "ESIEE Paris",
+        "information": "Diplôme d'ingénieur audiovisuel et informatique"
+      },
+      "orthographiq": {
+        "title": "Certification OrthographIQ",
+        "location": "IMAC | ESIEE Paris",
+        "information": "Certification en orthographe"
       },
       "toeic": {
         "title": "Certification TOEIC",
-        "location": "Université Gustave Eiffel"
+        "location": "Université Gustave Eiffel",
+        "information": "Score : 845/990"
+      },
+      "pix": {
+        "title": "Certification PIX",
+        "location": "Université Gustave Eiffel",
+        "information": "Score : 701/895 (Avancé 2)"
       },
       "alternance-1": {
         "title": "Développeur Full Stack",
@@ -103,6 +115,14 @@
   },
   "projects": {
     "title": "Mes Projets",
+    "information": {
+      "title": "Aides",
+      "description": "Vous trouverez ici mes projets réalisés au fil des <semibold>différentes années</semibold>, qu’ils soient <semibold>personnels</semibold> ou <semibold>scolaires</semibold>. Utilisez la barre de recherche ou appliquez des filtres pour parcourir le <semibold>tout.</semibold>",
+      "search": "<medium>Rechercher</medium> le nom d’un projet via la barre en haut : tapez quelques lettres, les résultats se mettent à jour automatiquement.",
+      "filter": "<medium>Filtrer</medium> <chipsIconTags>tags</chipsIconTags>, <chipsIconLanguages>langages</chipsIconLanguages> et <chipsIconYear>années</chipsIconYear>. Les filtres sont <semibold>combinables</semibold> (logique <chips>ET</chips> entre les catégories et <chips>OU</chips> entre les filtres d'une même catégories).",
+      "github": "Chaque carte contient un lien vers le <medium>dépôt GitHub</medium> (icône en <underline> haut à gauche</underline>) pour consulter le code source.",
+      "arrow": "Appuyez sur la <medium>flèche</medium> en <underline> haut à droite</underline> d’une carte pour <semibold>en savoir plus</semibold> sur le projet. Indisponible pour le moment !"
+    },
     "search": {
       "placeholder": "Rechercher un projet...",
       "noResults": "Aucun projet trouvé.",
@@ -158,6 +178,7 @@
     "years": {
       "2023": "2023 - (BUT1)",
       "2024": "2024 - (BUT2)",
+      "2024-solo": "2024 - (Perso)",
       "2025": "2025 - (BUT3)"
     },
     "splaaatball": {

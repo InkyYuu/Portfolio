@@ -30,12 +30,19 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  scrollbar-gutter: stable;
 }
 
 body {
   overflow-x: hidden;
   background-color: #f1f1f1;
   background-color: var(--color-bg);
+}
+
+.no-scroll {
+  overflow: hidden;
+  padding-right: var(--scrollbar-width, 0px);
+  overscroll-behavior: contain;
 }
 
 .bg-surface {

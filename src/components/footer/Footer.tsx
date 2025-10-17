@@ -7,7 +7,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="w-full bg-gray-900 text-gray-300 px-6 py-10 mt-12 border-t border-gray-700">
+    <footer className="w-full text-gray-300 px-6 py-10 mt-12 border-t border-gray-700 bg-gradient-to-tr from-[var(--color-surface)] to-[var(--color-bg)]">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-4">
           <a
