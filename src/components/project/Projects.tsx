@@ -12,7 +12,6 @@ import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import SearchIcon from "@mui/icons-material/Search";
 import CloseIcon from "@mui/icons-material/Close";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import Informations from "./Informations";
 import ModalInformation from "../modal/ModalInformation";
 
